@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name" translatable="false">BMB</string>
+    <string name="Already_Having_Account" translatable="false">Already have an account?\n\t\t\t\t\t\tLog in here</string>
+    <string name="Password" translatable="false">Password</string>
+    <string name="email_id" translatable="false">Email Id</string>
+    <string name="Sign_Button" translatable="false">Sign Up</string>
+    <string name="Login_Button">LogIn</string>
+    <string name="Already_Resgistered_Account">Not registered? <u>Sign up here</u> </string>
+    <string name="Go_Corona">GoCorona</string>
+    <string name="Or">OR</string>
+    <string name="LogOut">Logout</string>
+    <string name="title_activity_profile">Profile</string>
+
+
+    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="profile">Profile</string>
+    <string name="Seller_info">Sign in for Sellers and Vendors</string>
+    <string name="Cust_info">Sign in for Customers</string>
+    <string name="Seller_sign">Sign in for Seller</string>
+    <string name="are_you_a_seller">Are You A Seller?</string>
+    <string name="are_you_a_coustomer">Are you a coustomer?</string>
+
+
+    <string name="title_activity_main__navigation__drawer">Main_Navigation_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="home">Home</string>
+    <string name="communicate">Communicate</string>
+    <string name="some_text_view">Some Text View</string>
+    <string name="Support">Support</string>
+    <string name="todo">TODO</string>
+    <string name="back_to_nhome">Back to\nHome</string>
+    <string name="account_info">Account Info</string>
+    <string name="user">User</string>
+    <string name="relocate">Relocate</string>
+    <string name="cust">Sign in for Customer</string>
+    <string name="loading">Loading.....</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="google_title_text">Sign In</string>
+    <string name="login">LogIn</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="failed">Authentication Failed</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="seller_home">Seller Home</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="pincode">Pincode</string>
+    <string name="locate">Locate</string>
+    <string name="select_district">Select District</string>
+    <string name="textview">TextView</string>
+    <string name="select_state">Select State</string>
+    <string name="submit">Submit</string>
+    <string name="shop_name">Shop Name</string>
+    <string name="user_customer">User Customer</string>
+    <string name="location">location</string>
+    <string name="status">Status</string>
+    <string name="_0">0</string>
+    <string name="maps">maps</string>
+    <string name="form">FORM</string>
+    <string name="OK">OK</string>
+    <string name="category">Category</string>
+    <string name="select_category">Select Category</string>
+    <string name="user_seller">User Seller</string>
+    <string name="logout_seller">Logout Seller</string>
+    <string name="your_shop_is_n_close">YOUR SHOP IS \n     CLOSE</string>
+    <string name="click_here_to_change_status_of_your_shop">Click here to change status of your shop</string>
+    <string name="order">PLACE AN ORDER</string>
+
+    <string-array name="CategorySpinner">
+        <item>GROCERIES</item>
+        <item>GENERAL STORE</item>
+        <item>HEALTHCARE</item>
+        <item>SUPER MARKET</item>
+        <item>FOOD PRODUCTS</item>
+
+    </string-array>
+
+</resources>

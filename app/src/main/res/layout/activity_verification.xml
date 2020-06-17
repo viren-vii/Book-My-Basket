@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ShopCert_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="1) Click below to Upload Shop Certificate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ShopCert_img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/add_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ShopCert_txt" />
+
+        <TextView
+            android:id="@+id/GST_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="2) Click below to upload GST certificate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ShopCert_img" />
+
+        <ImageView
+            android:id="@+id/GST_img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/add_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GST_txt" />
+
+        <TextView
+            android:id="@+id/RegNo_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="3) Click below to upload Registration Certificate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GST_img" />
+
+        <ImageView
+            android:id="@+id/RegNo_img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/add_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RegNo_txt" />
+
+        <TextView
+            android:id="@+id/Adhar_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="4) Click below to upload Adhar Card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/RegNo_img" />
+
+        <ImageView
+            android:id="@+id/Adhar_img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/add_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Adhar_txt" />
+
+        <Button
+            android:id="@+id/submitData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Adhar_img"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/ShopCert_Sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="92dp"
+            android:text="Upload"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/ShopCert_img"
+            app:layout_constraintTop_toBottomOf="@+id/ShopCert_txt"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/GST_Sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="92dp"
+            android:text="Upload"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/GST_img"
+            app:layout_constraintTop_toBottomOf="@+id/GST_txt"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/RegNo_Sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="92dp"
+            android:text="Upload"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/RegNo_img"
+            app:layout_constraintTop_toBottomOf="@+id/RegNo_txt"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:id="@+id/Adhar_Sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="88dp"
+            android:text="Upload"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/Adhar_img"
+            app:layout_constraintTop_toBottomOf="@+id/Adhar_txt"
+            style="@style/buttonStyle"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarShopCert"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            app:layout_constraintBottom_toTopOf="@+id/ShopCert_Sub"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.171"
+            app:layout_constraintStart_toEndOf="@+id/ShopCert_img" />
+
+        <ProgressBar
+            android:id="@+id/progressBarGST"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/GST_Sub"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.695"
+            app:layout_constraintStart_toEndOf="@+id/GST_img" />
+
+        <ProgressBar
+            android:id="@+id/progressBarRegCert"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/RegNo_Sub"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toEndOf="@+id/RegNo_img" />
+
+        <ProgressBar
+            android:id="@+id/progressBarAdhar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/Adhar_Sub"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.343"
+            app:layout_constraintStart_toEndOf="@+id/Adhar_img" />
+
+        <TextView
+            android:id="@+id/proLblShopCert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            app:layout_constraintBottom_toTopOf="@+id/ShopCert_Sub"
+            app:layout_constraintEnd_toStartOf="@+id/progressBarShopCert"
+            app:layout_constraintStart_toEndOf="@id/ShopCert_img" />
+
+        <TextView
+            android:id="@+id/proLblGST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="2dp"
+            android:text="0%"
+            app:layout_constraintBottom_toTopOf="@+id/GST_Sub"
+            app:layout_constraintEnd_toStartOf="@+id/progressBarGST"
+            app:layout_constraintStart_toEndOf="@+id/GST_img" />
+
+        <TextView
+            android:id="@+id/proLblRegNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:text="0%"
+            app:layout_constraintBottom_toTopOf="@+id/RegNo_Sub"
+            app:layout_constraintEnd_toStartOf="@+id/progressBarRegCert"
+            app:layout_constraintStart_toEndOf="@+id/RegNo_img" />
+
+        <TextView
+            android:id="@+id/proLblAdhar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="2dp"
+            android:text="0%"
+            app:layout_constraintBottom_toTopOf="@+id/Adhar_Sub"
+            app:layout_constraintEnd_toStartOf="@+id/progressBarAdhar"
+            app:layout_constraintStart_toEndOf="@+id/Adhar_img" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

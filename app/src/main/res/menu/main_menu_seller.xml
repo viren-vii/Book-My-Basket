@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_Home_Seller"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:title="@string/profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_Profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/ic_profile"/>
+                <item
+                    android:id="@+id/nav_Edit_Profile"
+                    android:title="Edit Profile"
+                    android:icon="@drawable/ic_edit"/>
+                <item
+                    android:id="@+id/nav_Verified"
+                    android:title="Get your shop verified"
+                    android:icon="@drawable/ic_verified_user_black_24dp"/>
+                <item
+                    android:id="@+id/nav_set_menu"
+                    android:title="Menu"
+                    android:icon="@drawable/menu_seller"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_Email_Id"
+                    android:title="Email"
+                    android:icon="@drawable/ic_email_black_24dp"/>
+                <item
+                    android:id="@+id/nav_Phone_Number"
+                    android:title="Mobile"
+                    android:icon="@drawable/ic_phone_black_24dp"
+                    />
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="@string/Support">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Help"
+                    android:title="Help"
+                    android:icon="@drawable/ic_help_black_24dp"/>
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_LogOut"
+        android:title= "@string/logout_seller"
+        android:icon="@drawable/ic_logout"/>
+</menu>

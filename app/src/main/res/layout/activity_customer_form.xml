@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerForm">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/PhoneEntryC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:autofillHints="Phone Number"
+        android:ems="10"
+        android:singleLine="true"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:maxLength="10"
+        app:layout_constraintBottom_toTopOf="@+id/SelectStateC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/MyTextViewSubtitle"/>
+
+
+
+    <EditText
+        android:id="@+id/AddressEntryC"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="@string/enter_address"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toTopOf="@+id/PincodeEntryC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/MyTextViewSubtitle"
+        />
+
+    <EditText
+        android:id="@+id/PincodeEntryC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="@string/pincode"
+        android:inputType="number"
+        android:maxLength="6"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/btnLocateC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/MyTextViewSubtitle"
+        />
+
+    <Button
+        android:id="@+id/btnLocateC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:text="@string/locate"
+        app:layout_constraintBottom_toTopOf="@+id/CustomerDataSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/buttonStyle"/>
+
+    <Button
+        android:id="@+id/CustomerDataSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/buttonStyle"/>
+
+    <Button
+        android:id="@+id/SelectDistrictC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_district"
+        android:layout_margin="7dp"
+        app:layout_constraintBottom_toTopOf="@id/AddressEntryC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/buttonStyle"/>
+
+    <Button
+        android:id="@+id/SelectStateC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:text="@string/select_state"
+        app:layout_constraintBottom_toTopOf="@id/SelectDistrictC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/buttonStyle"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/emailIdC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:hint="@string/email_id"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/PhoneEntryC"
+        style="@style/MyTextViewSubtitle"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/NameEntryC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:singleLine="true"
+        android:hint="@string/name"
+        app:layout_constraintBottom_toTopOf="@id/emailIdC"
+        style="@style/MyTextViewSubtitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/NameEntryC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/form"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

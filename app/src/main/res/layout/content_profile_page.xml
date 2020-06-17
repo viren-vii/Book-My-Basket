@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProfilePage"
+    tools:showIn="@layout/activity_profile_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/headerText"
+            android:layout_marginBottom="20dp"
+            android:text="@string/account_info" />
+
+
+<!--        <View style="@style/proifleDetailsView" />-->
+
+<!--        <RelativeLayout style="@style/profileDetailsLayout">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/mobileImageView"-->
+<!--                style="@style/profileDetailsImage"-->
+<!--                android:src="@drawable/ic_mobile" />-->
+
+<!--            <TextView-->
+<!--                style="@style/profileDetailsTextMain"-->
+<!--                android:layout_toRightOf="@id/mobileImageView"-->
+<!--                android:text="Mobile" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/mobileNo"-->
+<!--                style="@style/profileDetailsMiniText"-->
+<!--                android:layout_toRightOf="@id/mobileImageView"-->
+<!--                android:text="+91-8129999999" />-->
+<!--        </RelativeLayout>-->
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/emailImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_email" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/emailImageView"
+                android:text="Email" />
+
+            <TextView
+                android:id="@+id/emailId"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/emailImageView"
+                android:text="user@email.com" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/phoneImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_mobile" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/phoneImageView"
+                android:text="Contact" />
+
+            <TextView
+                android:id="@+id/phone"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/phoneImageView"
+                android:text="Contact" />
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/addressImageView"
+                style="@style/profileDetailsImage"
+                android:src="@drawable/ic_address" />
+
+            <TextView
+                style="@style/profileDetailsTextMain"
+                android:layout_toRightOf="@id/addressImageView"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/addressImageView"
+                android:text="Address" />
+        </RelativeLayout>
+
+
+        <View style="@style/proifleDetailsView" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
