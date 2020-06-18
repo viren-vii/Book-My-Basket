@@ -15,8 +15,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
-;
-
 public class AdapterClass extends RecyclerView.Adapter<AdapterClass.MyViewHolder> {
 
     ArrayList<Deal> list;
