@@ -1,10 +1,10 @@
 package com.example.gocorona;
 
 public class Comment {
+     String content;
 
-    private  String content;
+    public Comment(){
 
-    public Comment() {
     }
 
     public Comment(String content) {
@@ -13,9 +13,5 @@ public class Comment {
 
     public String getContent() {
         return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
     }
 }

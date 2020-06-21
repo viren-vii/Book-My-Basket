@@ -232,6 +232,10 @@ public class Seller_Home extends AppCompatActivity implements NavigationView.OnN
                 Intent intToMenu = new Intent(Seller_Home.this , SellerMenu.class);
                 startActivity(intToMenu);
                 break;
+            case R.id.nav_view_order:
+                Intent intToOrderDisplay = new Intent(Seller_Home.this , OrderDisplaySeller.class);
+                startActivity(intToOrderDisplay);
+                break;
             case R.id.nav_Email_Id:
                 Intent intToMail = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
                         "mailto","virubhosale112@gmail.com", null));

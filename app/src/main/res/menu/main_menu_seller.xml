@@ -26,6 +26,11 @@
                     android:id="@+id/nav_set_menu"
                     android:title="Menu"
                     android:icon="@drawable/menu_seller"/>
+                <item
+                    android:id="@+id/nav_view_order"
+                    android:title="Orders"
+                    android:icon="@drawable/orders_seller"/>
+
             </group>
 
         </menu>
